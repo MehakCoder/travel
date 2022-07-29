@@ -14,7 +14,14 @@ a{
 }
 ul li{
     list-style: none;
+    text-align: left;
 }
+small,
+.small {
+  font-size: 80%;
+  font-weight: 400;
+}
+
 .Booking{
     padding-bottom: 48px;
 }
