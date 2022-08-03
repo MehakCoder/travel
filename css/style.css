@@ -136,6 +136,10 @@ h1.text-primary{
     padding-bottom: 10px !important;
     font-weight: 700;
 }
+.navbar-nav .nav-item .nav-link{
+    color: #212121 !important;
+    font-weight: 500;
+}
 /* Menu: the end*/
 /* slider */
 .owl-item-slider-1 {
