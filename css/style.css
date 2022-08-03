@@ -1,13 +1,22 @@
 *{
+    box-sizing: border-box;
     color: var(#7AB730);
 }
 body{
-    font-family: 'Poppins', sans-serif
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #656565;
+    background-color: #F3F3F3;
+}
+.container-fluid{
+ padding: 0;
+ display: block;
 }
 .container{
   border: 1px solid black;
-  padding-top: 5px;
-  padding-bottom: 3px;
 }
 a{
     text-decoration: none;
@@ -20,21 +29,6 @@ small,
 .small {
   font-size: 80%;
   font-weight: 400;
-}
-
-.Booking{
-    padding-bottom: 48px;
-}
-.About,.Feature,.Destination,
-.Service,.Package,.contact,.team,.testminoal,
-.blog{
-    padding-top: 48px;
-    padding-bottom: 48px;
-}
-.heading{
-    margin-bottom: 3px !important;
-    padding-bottom: 3px !important;
-    padding-top: 95px;
 }
 .heading span{
     color: #7AB730;
@@ -50,13 +44,20 @@ small,
     line-height: 1.2;
     color: #212121;
 }
+.Booking{
+    padding-bottom: 48px;
+}
+.About,.Feature,.Destination,
+.Service,.Package,.contact,.team,.testminoal,
+.blog{
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
+
 .fa{
     font-size: 18px;
 }
 p{
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 1.5;
     color: #656565;
     text-align: left;
     margin-top: 0;
@@ -79,10 +80,15 @@ p{
     border-color: #7AB730;
     margin-top: 4px;
 }
+h5{
+    color: #212121; 
+}
 /* Header */
 .head{
-    padding-top: 16px;
-    display: flex;
+    padding-top: 13px;
+    padding-bottom: 18px;
+    background-color: #fff;
+    line-height: 1.5;
 }
 .book-info{
  align-items: center;
@@ -105,42 +111,135 @@ p{
     padding-right: 16px;
     color: #7AB730;
 }
+.social-icons ul li a:hover{
+    color: #28a745;
+}
 /* Header : the end */
 /* Menu */
-/* .Menu{
+.nav-bar{
     position: relative;
-    padding: 0;
 }
 nav.navbar{
-    padding-top: 10px !important;
-    padding-bottom: 10px !important;
+    position: absolute;
     background-color: #ffffff !important;
     box-shadow: 0 1rem 3rem rgb(0 0 0 / 18%) !important;
-}
-.Menu:before{
-    position: absolute;
-    content: " ";
-    height: 100%;
-    width: 100%;
-    top: 25;
+    padding-left: 48px !important;
+    padding-right: 16px !important;
+    right: 0;
     left: 0;
-    background-color: #ffffff;
-
-} */
+    bottom: -50px;
+    z-index: 2;
+}
 h1.text-primary{
     color: #7AB730 !important;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+    font-weight: 700;
 }
- 
 /* Menu: the end*/
-/* About */
-.about-img{
+/* slider */
+.owl-item-slider-1 {
+    background-image: url(../image/carousel-1.jpg);
     position: relative;
-    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 184px;
+    padding-bottom: 192px;
+  }
+  .owl-item-slider-2 {
+    background-image: url(../image/carousel-2.jpg);
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 184px;
+    padding-bottom: 192px;
+  }
+/* slider: the end */
+/* About */
+.About{
+    position: relative;
 }
 .about-img img{
     width: 100%;
     object-fit: cover;
 }
+.about-us{
+    margin-top: 120px;
+    margin-bottom: 3rem;
+    padding: 3rem;
+    background-color: #fff;
+    margin-left: -120px;
 
+}
+.about-us span{
+    color: #7AB730;
+    font-size: 16px;
+    letter-spacing: 5px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 2px;
+}
+.about-us h2{
+    font-size:40px;
+    font-weight: 700;
+    line-height: 1.2;
+    color: #212121;
+}
 
 /* About : the end */
+/* Feature */
+.Feature-txt{
+    display: flex;
+}
+.Feature-icons{
+    display: flex;
+    background-color: #7AB730;
+    color: #fff;
+    width: 100px;
+    height: 100px;
+    padding: 40px;
+    margin-right: 16px;
+}
+.Feature-icons .fa{
+    font-size: 32px;
+    font-weight: 900;
+    margin-right:105px;
+}
+.Feature-info {
+ color: #212121;
+ font-weight: 500;
+}
+/* Feature: the end */
+/* Service */
+.Service-item{
+    background-color: #fff;
+    padding: 48px 17px 48px 17px;
+}
+.Service-item .fa{
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #7AB730;
+    color: #7AB730;
+    font-size: 32px;
+    transition: 0.5s;
+    margin: auto;
+    margin-bottom: 16.5px;
+}
+.Service-item:hover i{
+    background-color: #7AB730;
+    color: #fff;
+}
+.Service-item:hover{
+    box-shadow: 0 0 30px #cccccc;
+}
+.Service-item p{
+    text-align: center !important;
+}
+.Service .heading{
+    margin-bottom: 16px;
+}
+
+/* Service : the end */
