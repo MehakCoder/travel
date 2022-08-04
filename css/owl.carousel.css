@@ -61,26 +61,32 @@
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none; }
+    
   .owl-carousel .owl-nav button.owl-prev,
   .owl-carousel .owl-nav button.owl-next,
   .owl-carousel button.owl-dot {
+    display:inline-flex;
+    align-items: center;
+    font-weight: 400;
     font-size: 50px;
     color: #fff;
-    background: none;
-    font-weight: 100;
-    border: none;
-    border-radius: 50%;
-    height: 75px;
-    width: 75px;
+    background-color: #212121;
+    border: 1px solid transparent;
+    height: 45px;
+    width: 45px;
     margin: 0;
-    padding: 0;
+    padding: 0.375rem 0.75rem;
 }
 .owl-carousel button.owl-dot{
   width: 20px;
 }
-
+.owl-carousel .owl-nav button.owl-prev{
+  left: 10%;
+  top: 45%;
+}
 .owl-carousel .owl-nav button.owl-next{
-left: 10%;
+  right: 10%;
+  top:   45%;
 }  
 
   .owl-carousel.owl-loaded {

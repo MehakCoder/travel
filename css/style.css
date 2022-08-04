@@ -79,14 +79,15 @@ p{
     background-color: #7AB730;
     border-color: #7AB730;
     margin-top: 4px;
+    padding: 16px 48px 16px 48px;
 }
 h5{
     color: #212121; 
 }
 /* Header */
 .head{
-    padding-top: 13px;
-    padding-bottom: 18px;
+    padding-top: 15px;
+    padding-bottom: 27px;
     background-color: #fff;
     line-height: 1.5;
 }
@@ -125,10 +126,10 @@ nav.navbar{
     box-shadow: 0 1rem 3rem rgb(0 0 0 / 18%) !important;
     padding-left: 48px !important;
     padding-right: 16px !important;
-    right: 0;
-    left: 0;
+    padding-bottom: 5px !important; 
     bottom: -50px;
     z-index: 2;
+    width: 96%;
 }
 h1.text-primary{
     color: #7AB730 !important;
@@ -140,6 +141,9 @@ h1.text-primary{
     color: #212121 !important;
     font-weight: 500;
 }
+ .navbar-nav .nav-link:hover,  .navbar-nav .nav-link.active{
+    color: #7AB730 !important;
+}
 /* Menu: the end*/
 /* slider */
 .owl-item-slider-1 {
@@ -148,8 +152,8 @@ h1.text-primary{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    padding-top: 184px;
-    padding-bottom: 192px;
+    padding-top: 270px;
+    padding-bottom: 400px;
   }
   .owl-item-slider-2 {
     background-image: url(../image/carousel-2.jpg);
@@ -157,8 +161,29 @@ h1.text-primary{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    padding-top: 184px;
-    padding-bottom: 192px;
+    padding-top: 270px;
+    padding-bottom: 400px;
+  }
+  .slide-content{
+    position: absolute;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    color: #fff;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+  }
+  .slide-content span{
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+  }
+  .slide-content h1{
+    font-size: 4.5rem;
+    font-weight: 700;
   }
 /* slider: the end */
 /* About */
@@ -191,7 +216,12 @@ h1.text-primary{
     line-height: 1.2;
     color: #212121;
 }
-
+.btn-primary:hover{
+    color: #fff;
+    background-color: #669928;
+    border: #5f8f25;
+    text-decoration: none;
+}
 /* About : the end */
 /* Feature */
 .Feature-txt{
