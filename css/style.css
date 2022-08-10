@@ -4,9 +4,9 @@
 }
 body{
     font-family: 'Poppins', sans-serif;
-    margin: 0;
     font-size: 1rem;
     font-weight: 400;
+    margin: 0;
     line-height: 1.5;
     color: #656565;
     background-color: #F3F3F3;
@@ -18,8 +18,16 @@ body{
 .container{
   border: 1px solid black;
 }
+h1,h2,h3,h4,h5,h6{
+    margin-bottom: 8px;
+    font-weight: 500;
+    line-height: 1.2;
+    text-decoration: none;
+    color: #212121;
+}
 a{
     text-decoration: none;
+    color: #212121;
 }
 ul li{
     list-style: none;
@@ -53,9 +61,14 @@ small,
     padding-top: 48px;
     padding-bottom: 48px;
 }
+.img-fulid{
+    max-width: 100%;
+    height: auto;
+}
 
 .fa{
     font-size: 18px;
+    color: #7AB730;
 }
 p{
     color: #656565;
@@ -81,8 +94,25 @@ p{
     margin-top: 4px;
     padding: 16px 48px 16px 48px;
 }
-h5{
-    color: #212121; 
+.btn-primary:hover,.btn-primary:focus{
+    color: #fff;
+    background-color: #669928;
+    border: #5f8f25;
+    text-decoration: none;
+    box-shadow: #7AB730;
+}
+.custom-select{
+    display: inline-block;
+    width: 100%;
+    padding: 6px 24px 6px 24px;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    vertical-align: middle;
+    background: #fff;
+    border: 1px solid #ced4da;
+    border-radius: 0;
 }
 /* Header */
 .head{
@@ -187,8 +217,25 @@ h1.text-primary{
   }
 /* slider: the end */
 /* Booking */
-
-
+.Booking{
+    position: relative;
+    margin-top: -60px;
+    z-index: 1;
+}
+.input-group-text{
+    background-color: #fff !important;
+    border:none !important ;
+    border-radius:0;
+}
+.form-control{
+    border: 0 solid #fff !important;
+    border-radius: 0;
+    background-clip: border-box;
+    box-shadow: none !important;
+}
+button.btn {
+    border-radius: 0px !important;
+}
 
 /* Booking: the end */
 /* About */
@@ -221,12 +268,7 @@ h1.text-primary{
     line-height: 1.2;
     color: #212121;
 }
-.btn-primary:hover{
-    color: #fff;
-    background-color: #669928;
-    border: #5f8f25;
-    text-decoration: none;
-}
+
 /* About : the end */
 /* Feature */
 .Feature-txt{
@@ -235,7 +277,6 @@ h1.text-primary{
 .Feature-icons{
     display: flex;
     background-color: #7AB730;
-    color: #fff;
     width: 100px;
     height: 100px;
     padding: 40px;
@@ -261,7 +302,6 @@ h1.text-primary{
     align-items: center;
     justify-content: center;
     border: 2px solid #7AB730;
-    color: #7AB730;
     font-size: 32px;
     transition: 0.5s;
     margin: auto;
@@ -280,5 +320,24 @@ h1.text-primary{
 .Service .heading{
     margin-bottom: 16px;
 }
-
 /* Service : the end */
+/* Package : start */
+.package-item{
+    margin-bottom: 8px;
+}
+.package-item :hover{
+    box-shadow: 0 0 30px #cccccc;
+    color: #527a20;
+}
+.package-text{
+    padding: 20px !important;
+    margin-bottom: 24px;
+}
+.package-icons{
+    display: flex !important;
+    justify-content: space-between !important;
+    margin-bottom: 16px;
+}
+
+
+/* Package : the end */
