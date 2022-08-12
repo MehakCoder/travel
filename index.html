@@ -154,7 +154,8 @@
                             <div class='input-group date' id='startDate'>
                                 <span class="input-group-addon input-group-text"><span class="startDate"></span>
                                 </span>
-                                <input type='text' class="form-control" name="startDate" placeholder="Depart Date">
+                                <input type='text' class="form-control p-4 datetimepicker-input" name="startDate"
+                                    placeholder="Depart Date">
                             </div>
                         </div>
 
@@ -166,10 +167,10 @@
 
                                 <span class="input-group-addon input-group-text"><span class="startEnd"></span>
                                 </span>
-                                <input type='text' class="form-control" name="startEnd" placeholder="Return Date" />
+                                <input type='text' class="form-control p-4 datetimepicker-input" name="startEnd"
+                                    placeholder="Return Date" />
                             </div>
                         </div>
-
                     </div>
                     <div class="col-md-3">
                         <select class="custom-select px-4" style="height: 47px;">
@@ -419,6 +420,7 @@
                         </div>
                     </div>
                 </div>
+
                 <div class="col-lg-4 col-md-6">
                     <div class="package-item bg-white">
                         <div class="package-img">
@@ -531,18 +533,19 @@
     <!--package : the end -->
     <!-- contact:start -->
     <div class="contact">
-        <div class="container">
-            <div class="row">
+        <div class="container p-4">
+            <div class="row align-item-center">
                 <div class="col-lg-6">
-                    <div class="heading text-center">
+                    <div class="heading">
                         <span>MEGA OFFER</span>
-                        <h1><span>30% OFF</span>For Honeymoon</h1>
-                        <p>Invidunt lorem justo sanctus clita. Erat lorem labore ea, justo dolor lorem ipsum ut sed
+                        <h1 class="text-white"><span>30%OFF</span>For Honeymoon</h1>
+                        <p class="text-white">Invidunt lorem justo sanctus clita. Erat lorem labore ea, justo dolor
+                            lorem ipsum ut sed
                             eos,
                             ipsum et dolor kasd sit ea justo. Erat justo sed sed diam. Ea et erat ut sed diam sea
                             ipsum
                             est dolor</p>
-                        <ul>
+                        <ul class="text-white">
                             <li><a herf="#"><i class="fa fa-check"></i></a>Labore eos amet dolor amet diam</li>
                             <li><a herf="#"><i class="fa fa-check"></i></a>Etsea et sit dolor amet ipsum</li>
                             <li><a herf="#"><i class="fa fa-check"></i></a>Diam dolor diam elitripsum vero.</li>
@@ -551,26 +554,30 @@
                 </div>
                 <div class="col-lg-6">
                     <div class="contact-form">
-                        <div class="contact-head">
-                            <h1>Sign Up Now</h1>
+                        <div class="contact-head bg-primary p-4 text-center">
+                            <h1 class="text-white">Sign Up Now</h1>
                         </div>
-                        <form>
-                            <div class="form-group">
-                                <input type="text" class="form-control" placeholder="your name" required="required">
-                            </div>
-                            <div class="form-group">
-                                <input type="text" class="form-control" placeholder="your Email" required="required">
-                            </div>
-                            <div class="form-group">
-                                <select class="custom-select px-4" style="height: 47px;">
-                                    <option selected>Select a destination</option>
-                                    <option value="1">destination 1</option>
-                                    <option value="2">destination 1</option>
-                                    <option value="3">destination 1</option>
-                                </select>
-                            </div>
-                        </form>
-                        <button class="btn btn-primary btn-block py-3" type="submit">Sign Up Now</button>
+                        <div class="card-body rounded-bottom bg-white p-5">
+                            <form>
+                                <div class="form-group">
+                                    <input type="text" class="custom-select p-3 mb-3" placeholder="Your Name"
+                                        required="required">
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="custom-select p-3 mb-3" placeholder="Your email"
+                                        required="required">
+                                </div>
+                                <div class="form-group">
+                                    <select class="custom-select px-4 mb-3" style="height: 47px;">
+                                        <option selected>Select a destination</option>
+                                        <option value="1">destination 1</option>
+                                        <option value="2">destination 1</option>
+                                        <option value="3">destination 1</option>
+                                    </select>
+                                </div>
+                                <button type="submit" class="btn btn-primary-1">Sign Up Now</button>
+                            </form>
+                        </div>
                     </div>
                 </div>
             </div>
