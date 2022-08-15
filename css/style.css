@@ -586,6 +586,9 @@ button.btn {
 }
 /* Team : the end */
 /* Blog  */
+.blog{
+    margin-bottom: 85px !important;
+}
 .blog-date{
     position: absolute;
     width: 60px;
@@ -613,4 +616,8 @@ button.btn {
     font-weight: 700 !important;
     margin-bottom: -0.25rem !important;
 }
+.blog-admin{
+    margin-bottom: 12px;
+}
+
 /* Blog : the end */
