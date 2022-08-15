@@ -1,8 +1,9 @@
-*{
+* {
     box-sizing: border-box;
     color: var(#7AB730);
 }
-body{
+
+body {
     font-family: 'Poppins', sans-serif;
     font-size: 1rem;
     font-weight: 400;
@@ -11,40 +12,58 @@ body{
     color: #656565;
     background-color: #F3F3F3;
 }
-.container-fluid{
- padding: 0;
- display: block;
+
+.container-fluid {
+    padding: 0;
+    display: block;
 }
-.container{
-  border: 1px solid black;
+
+.container {
+    border: 1px solid black;
 }
-h1,h2,h3,h4,h5,h6{
+.text-primary{
+    color: #7AB730 !important;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     margin-bottom: 8px;
     font-weight: 500;
     line-height: 1.2;
     text-decoration: none;
     color: #212121;
 }
-a{
+
+a {
     text-decoration: none;
     color: #212121;
 }
-a:hover{
-    color: #7AB730;
+
+a:hover {
+    color: #527a20;;
 }
-ul li{
+a.text-primary:hover, a.text-primary:focus {
+    color: #527a20 !important;
+}
+ul li {
     list-style: none;
     text-align: left;
 }
+
 small,
 .small {
-  font-size: 80%;
-  font-weight: 400;
+    font-size: 80%;
+    font-weight: 400;
 }
-.bg-primary{
+
+.bg-primary {
     background-color: #7AB730 !important;
 }
-.heading span{
+
+.heading span {
     color: #7AB730;
     font-size: 16px;
     letter-spacing: 5px;
@@ -52,36 +71,52 @@ small,
     text-transform: uppercase;
     margin-bottom: 2px;
 }
-.heading h2{
-    font-size:40px;
+
+.heading h2 {
+    font-size: 40px;
     font-weight: 700;
     line-height: 1.2;
     color: #212121;
 }
-.Booking{
+
+.Booking {
     padding-bottom: 48px;
 }
-.About,.Feature,.Destination,
-.Service,.Package,.contact,.team,.testminoal,
-.blog{
+
+.About,
+.Feature,
+.Destination,
+.Service,
+.Package,
+.contact,
+.team,
+.testminoal,
+.blog {
     padding-top: 48px;
     padding-bottom: 48px;
 }
-.img-fulid{
+
+.img-fulid {
     max-width: 100%;
     height: auto;
 }
 
-.fa{
+.fa {
     font-size: 18px;
     color: #7AB730;
 }
-p{
+.fa:hover{
+    color: #fff;
+
+}
+
+p {
     color: #656565;
     text-align: left;
     margin-top: 0;
     margin-bottom: 16px;
 }
+
 .btn {
     display: inline-block;
     font-weight: 400;
@@ -93,6 +128,7 @@ p{
     font-size: 16px;
     line-height: 1.5;
 }
+
 .btn-primary {
     color: #fff;
     background-color: #7AB730;
@@ -100,7 +136,9 @@ p{
     margin-top: 4px;
     padding: 16px 48px 16px 48px;
 }
-.btn-primary:hover, .btn-primary:focus{ 
+
+.btn-primary:hover,
+.btn-primary:focus {
     border-color: #b8e087;
     background-color: #669928;
     outline: 0 !important;
@@ -108,7 +146,7 @@ p{
     text-decoration: none;
 }
 
-.custom-select{
+.custom-select {
     display: inline-block;
     width: 100%;
     font-size: 1rem;
@@ -120,80 +158,96 @@ p{
     border: 1px solid #ced4da;
     border-radius: 0;
 }
-.form-control{
+
+.form-control {
     border-radius: 0;
     background-clip: border-box;
     box-shadow: none !important;
     height: 47px;
     background: transparent;
 }
-.form-control:focus{
+
+.form-control:focus {
     color: #495057;
     background-color: #fff;
     border-color: #b8e087;
     outline: 0;
     box-shadow: 0 0 0 0.2rem rgb(122 183 48 / 25%);
 }
+
 /* Header */
-.head{
+.head {
     padding-top: 15px;
     padding-bottom: 27px;
     background-color: #fff;
     line-height: 1.5;
 }
-.book-info{
- align-items: center;
- display: inline-flex !important;
+
+.book-info {
+    align-items: center;
+    display: inline-flex !important;
 }
-.text-body{
+
+.text-body {
     color: #656565;
     padding-left: 16px;
     padding-right: 16px;
 }
-.social-icons{
-    text-align: right;  
+
+.social-icons {
+    text-align: right;
 }
-.social-icons ul{
+
+.social-icons ul {
     text-decoration: none;
     display: inline-flex;
 }
-.social-icons ul li a{
+
+.social-icons ul li a {
     padding-left: 16px;
     padding-right: 16px;
     color: #7AB730;
 }
-.social-icons ul li a:hover{
+
+.social-icons ul li a:hover {
     color: #28a745;
 }
+
 /* Header : the end */
 /* Menu */
-.nav-bar{
+.nav-bar {
     position: relative;
 }
-nav.navbar{
+
+nav.navbar {
     position: absolute;
     background-color: #ffffff !important;
     box-shadow: 0 1rem 3rem rgb(0 0 0 / 18%) !important;
     padding-left: 48px !important;
     padding-right: 16px !important;
-    padding-bottom: 5px !important; 
+    padding-bottom: 5px !important;
     bottom: -50px;
     z-index: 2;
     width: 96%;
 }
-h1.text-primary{
+
+h1.text-primary {
     color: #7AB730 !important;
     padding-top: 10px !important;
     padding-bottom: 10px !important;
     font-weight: 700;
 }
-.navbar-nav .nav-item .nav-link{
+
+.navbar-nav .nav-item .nav-link {
     color: #212121 !important;
     font-weight: 500;
 }
- .navbar-nav .nav-link:hover,  .navbar-nav .nav-link.active{
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active {
     color: #7AB730 !important;
 }
+
 /* Menu: the end*/
 /* slider */
 .owl-item-slider-1 {
@@ -204,8 +258,9 @@ h1.text-primary{
     background-position: center;
     padding-top: 270px;
     padding-bottom: 400px;
-  }
-  .owl-item-slider-2 {
+}
+
+.owl-item-slider-2 {
     background-image: url(../image/carousel-2.jpg);
     position: relative;
     background-repeat: no-repeat;
@@ -213,8 +268,9 @@ h1.text-primary{
     background-position: center;
     padding-top: 270px;
     padding-bottom: 400px;
-  }
-  .slide-content{
+}
+
+.slide-content {
     position: absolute;
     padding-top: 200px;
     padding-bottom: 200px;
@@ -225,27 +281,31 @@ h1.text-primary{
     bottom: 0;
     background: rgba(0, 0, 0, 0.5);
     z-index: 1;
-  }
-  .slide-content span{
+}
+
+.slide-content span {
     font-size: 20px;
     font-weight: 500;
     text-transform: uppercase;
-  }
-  .slide-content h1{
+}
+
+.slide-content h1 {
     font-size: 4.5rem;
     font-weight: 700;
-  }
+}
+
 /* slider: the end */
 /* Booking */
-.Booking{
+.Booking {
     position: relative;
     margin-top: -60px;
     z-index: 1;
 }
-.input-group-text{
-    background-color:transparent;
-    border:none !important ;
-    border-radius:0;
+
+.input-group-text {
+    background-color: transparent;
+    border: none !important;
+    border-radius: 0;
 }
 
 .custom-select:focus {
@@ -253,20 +313,23 @@ h1.text-primary{
     outline: 0;
     box-shadow: 0 0 0 0.2rem rgb(122 183 48 / 25%);
 }
+
 button.btn {
     border-radius: 0px !important;
 }
 
 /* Booking: the end */
 /* About */
-.About{
+.About {
     position: relative;
 }
-.about-img img{
+
+.about-img img {
     width: 100%;
     object-fit: cover;
 }
-.about-us{
+
+.about-us {
     margin-top: 120px;
     margin-bottom: 3rem;
     padding: 3rem;
@@ -274,7 +337,8 @@ button.btn {
     margin-left: -120px;
 
 }
-.about-us span{
+
+.about-us span {
     color: #7AB730;
     font-size: 16px;
     letter-spacing: 5px;
@@ -282,8 +346,9 @@ button.btn {
     text-transform: uppercase;
     margin-bottom: 2px;
 }
-.about-us h2{
-    font-size:40px;
+
+.about-us h2 {
+    font-size: 40px;
     font-weight: 700;
     line-height: 1.2;
     color: #212121;
@@ -291,10 +356,11 @@ button.btn {
 
 /* About : the end */
 /* Feature */
-.Feature-txt{
+.Feature-txt {
     display: flex;
 }
-.Feature-icons{
+
+.Feature-icons {
     display: flex;
     background-color: #7AB730;
     width: 100px;
@@ -302,28 +368,34 @@ button.btn {
     padding: 40px;
     margin-right: 16px;
 }
-.Feature-icons .fa{
+
+.Feature-icons .fa {
     font-size: 32px;
     font-weight: 900;
-    margin-right:105px;
+    margin-right: 105px;
 }
+
 .Feature-info {
- color: #212121;
- font-weight: 500;
+    color: #212121;
+    font-weight: 500;
 }
+
 /* Feature: the end */
 /* Destination */
-.destination-item img{
+.destination-item img {
     transition: 0.5s;
     transform: scale(1);
 }
-.destination-item:hover img{
+
+.destination-item:hover img {
     transform: scale(1.3);
 }
-.destination-overlay a span{
+
+.destination-overlay a span {
     margin-left: 20px;
 }
-.destination-overlay{
+
+.destination-overlay {
     position: absolute;
     top: 30px;
     right: 30px;
@@ -335,22 +407,25 @@ button.btn {
     background: rgba(0, 0, 0, 0.3);
     border: 1px solid rgba(255, 255, 255, 0.5);
     transition: .5s;
-    z-index: 1; 
+    z-index: 1;
 }
-.destination-item:hover .destination-overlay{
+
+.destination-item:hover .destination-overlay {
     top: 0px;
     right: 0px;
     bottom: 0px;
     left: 0px;
     border-width: 30px;
 }
+
 /* Destination : the end */
 /* Service */
-.Service-item{
+.Service-item {
     background-color: #fff;
     padding: 48px 17px 48px 17px;
 }
-.Service-item .fa{
+
+.Service-item .fa {
     padding: 20px;
     align-items: center;
     justify-content: center;
@@ -360,90 +435,103 @@ button.btn {
     margin: auto;
     margin-bottom: 16.5px;
 }
-.Service-item:hover i{
+
+.Service-item:hover i {
     background-color: #7AB730;
     color: #fff;
 }
-.Service-item:hover{
+
+.Service-item:hover {
     box-shadow: 0 0 30px #cccccc;
 }
-.Service-item p{
+
+.Service-item p {
     text-align: center !important;
 }
-.Service .heading{
+
+.Service .heading {
     margin-bottom: 16px;
 }
+
 /* Service : the end */
 /* Package : start */
-.package-item{
+.package-item {
     margin-bottom: 8px;
     transition: 0.5s;
 }
-.package-item:hover{
-    box-shadow: 0 0 30px #cccccc;  
+
+.package-item:hover {
+    box-shadow: 0 0 30px #cccccc;
 }
-.package-text{
+
+.package-text {
     padding: 20px !important;
     margin-bottom: 24px;
 }
-.package-icons{
+
+.package-icons {
     display: flex !important;
     justify-content: space-between !important;
     margin-bottom: 16px;
 }
+
 /* Package : the end */
 /* Contact */
-.contact{
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(../image/carousel-1.jpg) no-repeat center;
+.contact {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../image/carousel-1.jpg) no-repeat center;
     background-size: cover;
     padding-top: 48px;
     padding-bottom: 48px;
 }
-.contact-head h1{
+
+.contact-head h1 {
     font-weight: 700 !important;
 }
-.heading{
+
+.heading {
     padding-top: 48px;
     padding-bottom: 48px;
 }
-.heading h1 span{
+
+.heading h1 span {
     font-size: 39px;
     font-weight: 700;
 }
-.heading ul{
+
+.heading ul {
     padding-left: 0;
 }
-.heading ul li a{
+
+.heading ul li a {
     margin-right: 15px !important;
 }
-.btn-primary-1{
+
+.btn-primary-1 {
     color: #fff;
     background-color: #7AB730;
     border-color: #7AB730;
     margin-top: 4px;
     padding: 16px 170px 16px 160px;
 }
-.btn-primary-1:hover,.btn-primary-1:focus{
+
+.btn-primary-1:hover,
+.btn-primary-1:focus {
     border-color: #b8e087;
     color: #fff;
     background-color: #669928;
     outline: 0 !important;
     box-shadow: 0 0 0 0.2rem rgb(122 183 48 / 25%);
-    text-decoration: none; 
+    text-decoration: none;
 }
+.btn-outline-primary {
+    color: #7AB730;
+    border-color: #7AB730;}
 /* Team */
-.team-content{
-    transition: 0.5s;
+.team-item {
+    transition: .5s;
 }
-.team-img{
-    position: relative;
-    transition: 0.5s;
-    transform: scale(1);
-}
-.team-img :hover img{
-    transform: scaleY(1.3);
-}
-.team-social{
+
+.team-social {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -454,8 +542,76 @@ button.btn {
     justify-content: center;
     transition: .5s;
 }
-.team-content:hover .team-social {
+
+.team-social a.btn {
+    position: relative;
+    margin: 0 3px;
+    margin-top: 100px;
+    opacity: 0;
+    text-decoration: none;
+    border-radius: 1px ;
+}
+.btn-outline-primary {
+    color: #7AB730;
+    border-color: #7AB730;
+}
+.btn-outline-primary:hover {
+    color: #fff;
+    background-color: #7AB730;
+    border-color: #7AB730;
+}
+.team-item:hover {
+    box-shadow: 0 0 30px #CCCCCC;
+}
+
+.team-item:hover .team-social {
     background: rgba(0, 0, 0, 0.5);
 }
 
+.team-item:hover .team-social a.btn:first-child,
+.team-item:hover .team-social a.btn:nth-child(2),
+.team-item:hover .team-social a.btn:nth-child(3),
+.team-item:hover .team-social a.btn:nth-child(4) {
+    opacity: 1;
+    margin-top: 0;
+    transition: .3s 0s;
+}
+
+.team-item .team-img img {
+    transition: .5s;
+}
+
+.team-item:hover .team-img img {
+    transform: scale(1.2);
+}
 /* Team : the end */
+/* Blog  */
+.blog-date{
+    position: absolute;
+    width: 60px;
+    height: 45px;
+    top: 30px;
+    left: -15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: #7AB730;
+}
+.blog-date::after {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 0;
+    top: -15px;
+    left: 0;
+    border: 8px solid;
+    border-color: transparent #5f8f25 #5f8f25 transparent;
+    z-index: -1;
+}
+.blog-date h6{
+    font-weight: 700 !important;
+    margin-bottom: -0.25rem !important;
+}
+
+/* Blog : the end */
