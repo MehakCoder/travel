@@ -588,6 +588,28 @@ button.btn {
 }
 /* Team : the end */
 /* testimonial */
+.testimonial-carousel .owl-dots {
+    margin-top: 5px;
+    text-align: center;
+  }
+  
+  .testimonial-carousel .owl-dot {
+    position: relative;
+    display: inline-block !important;
+    margin: 0 5px !important;
+    width: 20px;
+    height: 20px !important;
+    background: #DDDDDD !important;
+    transition: .5s !important;
+}
+  .testimonial-carousel .owl-dot.active {
+    width: 40px;
+    background: #7AB730 !important;
+  }
+  
+  .testimonial-carousel .owl-item.center .testimonial-text {
+    box-shadow: 0 0 30px #CCCCCC;
+  }
 
 
 /* testimonial: the end */

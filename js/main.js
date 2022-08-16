@@ -51,20 +51,21 @@ $(document).ready(function () {
         }, 100);
         return false;
     });
-    $("#testimonial-sliders").owlCarousel({
+    $(".testimonial-carousel").owlCarousel({
         loop: true,
         margin: 100,
         nav: false,
         dots: true,
+        dotsEach:true,
         responsive: {
             0: {
                 items: 1
             },
             600: {
-                items: 1
+                items: 3
             },
             1000: {
-                items: 1
+                items: 3
             }
         }
     });
