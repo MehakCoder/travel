@@ -43,7 +43,7 @@ a {
 }
 
 a:hover {
-    color: #527a20;;
+    color: #527a20;
 }
 a.text-primary:hover, a.text-primary:focus {
     color: #527a20 !important;
@@ -58,7 +58,9 @@ small,
     font-size: 80%;
     font-weight: 400;
 }
-
+.text-white-50 {
+    color: rgba(255, 255, 255, 0.5) !important;
+}
 .bg-primary {
     background-color: #7AB730 !important;
 }
@@ -619,5 +621,48 @@ button.btn {
 .blog-admin{
     margin-bottom: 12px;
 }
-
 /* Blog : the end */
+/* footer and copyright */
+.footer .icons a{
+    border-radius: 1px;
+   margin-right: 5px;
+}
+.footer ul li a{
+    margin-right: 10px;
+}
+.input-group-append button.btn-primary{
+    margin-top: 0 !important;
+    padding-bottom: 10px !important;
+}
+p.link{
+    text-align: right !important;
+}
+.Usefull-link a{
+    margin-right: 0.25rem;
+    margin-bottom: 0.5rem;
+}
+.Usefull-link a:hover{
+ text-decoration: underline;
+}
+#scroll-Top .return-to-top {
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    width: 40px;
+    line-height: 40px;
+    height: 40px;
+    text-align: center;
+    font-size: 30px;
+    border: 1px solid #7AB730;
+    color: #fff;
+    background-color: #7AB730;
+    cursor: pointer;
+    z-index: 15;
+    transition: 0.5s;
+}
+
+#scroll-Top .return-to-top:hover {
+    color: #fff; 
+    background-color: #669928;
+    border-color: #5f8f25;
+}
