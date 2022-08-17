@@ -156,9 +156,8 @@ p {
     line-height: 1.5;
     color: #495057;
     vertical-align: middle;
-    background: #fff;
-    border: 1px solid #ced4da;
     border-radius: 0;
+    border-color: #CCCCCC;
 }
 
 .form-control {
@@ -171,7 +170,6 @@ p {
 
 .form-control:focus {
     color: #495057;
-    background-color: #fff;
     border-color: #b8e087;
     outline: 0;
     box-shadow: 0 0 0 0.2rem rgb(122 183 48 / 25%);
@@ -309,7 +307,9 @@ h1.text-primary {
     border: none !important;
     border-radius: 0;
 }
-
+.custom-select{
+    margin-right: 15px !important;
+}
 .custom-select:focus {
     border-color: #b8e087;
     outline: 0;
@@ -588,11 +588,17 @@ button.btn {
 }
 /* Team : the end */
 /* testimonial */
+.testimonial-text{
+    margin-top: -50px;
+}
+.testimonial-text p{
+    text-align: center !important;
+}
+
 .testimonial-carousel .owl-dots {
     margin-top: 5px;
     text-align: center;
   }
-  
   .testimonial-carousel .owl-dot {
     position: relative;
     display: inline-block !important;
