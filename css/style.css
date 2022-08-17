@@ -698,3 +698,22 @@ p.link{
     background-color: #669928;
     border-color: #5f8f25;
 }
+/* -----------Sub Page------------ */
+/* About */
+ /* Banner */
+.Banner{
+ position: relative;
+ background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../image/carousel-2.jpg), no-repeat center center;
+ background-size: cover;
+ padding-top: 170px;
+ padding-bottom: 150px;
+ }
+ .Banner-content h1{
+    font-size: 50px;
+    font-weight: bolder;
+ }
+ .Banner-content a:hover{
+  text-decoration: underline;
+ }
+ 
+ /* Banner : the end */
