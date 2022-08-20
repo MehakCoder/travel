@@ -759,3 +759,20 @@ a.text-dark .fa{
     font-weight: bold;
 }
  /* Blog : the end */
+ /* Single-blog */
+.single-image{
+    float: left;
+    margin-right: 24px;
+    margin-bottom: 8px;
+}
+.image-right{
+    float: right;
+    margin-right: 24px;
+    margin-bottom: 8px;
+}
+
+
+
+
+
+ /* Single-blog : the end */
