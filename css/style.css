@@ -161,12 +161,21 @@ p {
 }
 
 .form-control {
+    display: block;
+    width: 100%;
+    height: calc(1.5em + 0.75rem + 2px);
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
     border-radius: 0;
-    background-clip: border-box;
-    box-shadow: none !important;
-    height: 47px;
-    background: transparent;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
+  
 
 .form-control:focus {
     color: #495057;
@@ -770,7 +779,23 @@ a.text-dark .fa{
     margin-right: 24px;
     margin-bottom: 8px;
 }
-
+/* Media */
+.media {
+    display: flex;
+    align-items: flex-start;
+}
+.media img{
+    margin-right: 16px;
+}
+.media-body h6 a {
+    color: #7AB730;
+}
+.media-body h6 small {
+    color: #212121 !important;
+}
+textarea.form-control {
+    height: auto;
+}
 
 
 
