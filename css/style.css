@@ -21,6 +21,12 @@ body {
 .container {
     border: 1px solid black;
 }
+small{
+    color: #7AB730 !important;
+}
+small:hover{
+    color: #527a20 !important;
+}
 .text-primary{
     color: #7AB730 !important;
 }
@@ -105,12 +111,8 @@ small,
 
 .fa {
     font-size: 18px;
-    color: #7AB730;
 }
-.fa:hover{
-    color: #fff;
 
-}
 
 p {
     color: #656565;
@@ -720,6 +722,9 @@ p.link{
 .blog-item:hover{
     box-shadow: 0 0 30px #CCCCCC;
 }
+.blog-content{
+    padding-left: 16px;
+}
 /* Pagination */
 .page-item.active .page-link {
     z-index: 3;
@@ -737,5 +742,21 @@ p.link{
     box-shadow: 0 0 0 0.2rem rgb(122 183 48 / 25%);
 }
 /* Pagination : the end */
-
+/* form-search */
+.input-group-text{
+    height: 50px;
+    border: 1px solid #ced4da !important;
+}
+/* Recent post */
+.badge{
+    border: 1px solid #7AB730;
+    border-radius: 0;
+    background-color: #7AB730;
+}
+a.text-dark:hover{
+    text-decoration: underline;
+}
+a.text-dark .fa{
+    font-weight: bold;
+}
  /* Blog : the end */
