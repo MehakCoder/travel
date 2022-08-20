@@ -114,9 +114,7 @@ small,
 
 p {
     color: #656565;
-    text-align: left;
-    margin-top: 0;
-    margin-bottom: 16px;
+    line-height: 1.5 !important;
 }
 
 .btn {
@@ -713,5 +711,31 @@ p.link{
  .Banner-content a:hover{
   text-decoration: underline;
  }
- 
+
  /* Banner : the end */
+ /* Blog */
+ .blog-item{
+    transition: 0.5s;
+ }
+.blog-item:hover{
+    box-shadow: 0 0 30px #CCCCCC;
+}
+/* Pagination */
+.page-item.active .page-link {
+    z-index: 3;
+    color: #fff;
+    background-color: #7AB730;
+    border-color:  #7AB730;
+}
+.page-link{
+    color: #7AB730;
+}
+.page-link:hover,.page-link:focus{
+    color: #527a20;
+    text-decoration: none;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgb(122 183 48 / 25%);
+}
+/* Pagination : the end */
+
+ /* Blog : the end */
