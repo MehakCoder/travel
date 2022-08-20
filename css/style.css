@@ -745,7 +745,6 @@ p.link{
 /* form-search */
 .input-group-text{
     height: 50px;
-    border: 1px solid #ced4da !important;
 }
 /* Recent post */
 .badge{
