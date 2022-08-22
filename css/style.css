@@ -1,3 +1,23 @@
+/*=========== TABLE OF CONTENTS ===========
+1.  General css (Reset code)
+2. 	Header
+3.	Menu
+4.	Slider
+5. 	Booking
+6. 	About
+7. 	Feature
+8. 	Destination
+9.  Service
+10.	Package
+11. Contact
+12. Team
+13. Testimonial   
+14. Blog
+15. Footer & Copyright
+===========*/
+/*-------------------------------------
+		1. General css (reset code)
+-----*/
 * {
     box-sizing: border-box;
     color: var(#7AB730);
@@ -18,18 +38,18 @@ body {
     display: block;
 }
 
-.container {
-    border: 1px solid black;
-}
-small{
+small {
     color: #7AB730 !important;
 }
-small:hover{
+
+small:hover {
     color: #527a20 !important;
 }
-.text-primary{
+
+.text-primary {
     color: #7AB730 !important;
 }
+
 h1,
 h2,
 h3,
@@ -51,9 +71,12 @@ a {
 a:hover {
     color: #527a20;
 }
-a.text-primary:hover, a.text-primary:focus {
+
+a.text-primary:hover,
+a.text-primary:focus {
     color: #527a20 !important;
 }
+
 ul li {
     list-style: none;
     text-align: left;
@@ -64,9 +87,11 @@ small,
     font-size: 80%;
     font-weight: 400;
 }
+
 .text-white-50 {
     color: rgba(255, 255, 255, 0.5) !important;
 }
+
 .bg-primary {
     background-color: #7AB730 !important;
 }
@@ -126,6 +151,7 @@ p {
     text-align: center;
     vertical-align: middle;
     border: 1px solid transparent;
+    border-radius: 0 !important;
     padding: 6px 12px;
     font-size: 16px;
     line-height: 1.5;
@@ -136,7 +162,7 @@ p {
     background-color: #7AB730;
     border-color: #7AB730;
     margin-top: 4px;
-    padding: 16px 48px 16px 48px;
+    padding: 16px 48px 25px 48px;
 }
 
 .btn-primary:hover,
@@ -157,7 +183,7 @@ p {
     color: #495057;
     vertical-align: middle;
     border-radius: 0;
-    border-color: #CCCCCC;
+    border: 1px solid #cccccc;
 }
 
 .form-control {
@@ -175,7 +201,7 @@ p {
     border-radius: 0;
     transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
-  
+
 
 .form-control:focus {
     color: #495057;
@@ -184,7 +210,11 @@ p {
     box-shadow: 0 0 0 0.2rem rgb(122 183 48 / 25%);
 }
 
-/* Header */
+/*-------------------------------------
+General css (Reset code) : the end
+-----*/
+
+/* 2. Header */
 .head {
     padding-top: 15px;
     padding-bottom: 27px;
@@ -223,7 +253,8 @@ p {
 }
 
 /* Header : the end */
-/* Menu */
+
+/* 3. Menu */
 .nav-bar {
     position: relative;
 }
@@ -257,8 +288,16 @@ h1.text-primary {
     color: #7AB730 !important;
 }
 
+.dropdown-item.active,
+.dropdown-item:active {
+    color: #fff;
+    text-decoration: none;
+    background-color: #7AB730;
+}
+
 /* Menu: the end*/
-/* slider */
+
+/* 4. slider */
 .owl-item-slider-1 {
     background-image: url(../image/carousel-1.jpg);
     position: relative;
@@ -304,11 +343,16 @@ h1.text-primary {
 }
 
 /* slider: the end */
-/* Booking */
+
+/* 5. Booking */
 .Booking {
     position: relative;
     margin-top: -60px;
     z-index: 1;
+}
+
+.input-group {
+    flex-wrap: unset;
 }
 
 .input-group-text {
@@ -316,9 +360,7 @@ h1.text-primary {
     border: none !important;
     border-radius: 0;
 }
-.custom-select{
-    margin-right: 15px !important;
-}
+
 .custom-select:focus {
     border-color: #b8e087;
     outline: 0;
@@ -329,8 +371,14 @@ button.btn {
     border-radius: 0px !important;
 }
 
+.destend {
+    margin-left: 25px !important;
+}
+
 /* Booking: the end */
-/* About */
+
+
+/*6. About */
 .About {
     position: relative;
 }
@@ -366,7 +414,8 @@ button.btn {
 }
 
 /* About : the end */
-/* Feature */
+
+/* 7. Feature */
 .Feature-txt {
     display: flex;
 }
@@ -383,7 +432,6 @@ button.btn {
 .Feature-icons .fa {
     font-size: 32px;
     font-weight: 900;
-    margin-right: 105px;
 }
 
 .Feature-info {
@@ -392,7 +440,8 @@ button.btn {
 }
 
 /* Feature: the end */
-/* Destination */
+
+/*  8. Destination */
 .destination-item img {
     transition: 0.5s;
     transform: scale(1);
@@ -430,7 +479,8 @@ button.btn {
 }
 
 /* Destination : the end */
-/* Service */
+
+/*  9. Service */
 .Service-item {
     background-color: #fff;
     padding: 48px 17px 48px 17px;
@@ -441,6 +491,7 @@ button.btn {
     align-items: center;
     justify-content: center;
     border: 2px solid #7AB730;
+    color: #7AB730;
     font-size: 32px;
     transition: 0.5s;
     margin: auto;
@@ -465,7 +516,8 @@ button.btn {
 }
 
 /* Service : the end */
-/* Package : start */
+
+/*  10. Package : start */
 .package-item {
     margin-bottom: 8px;
     transition: 0.5s;
@@ -487,7 +539,8 @@ button.btn {
 }
 
 /* Package : the end */
-/* Contact */
+
+/*  11. Contact */
 .contact {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../image/carousel-1.jpg) no-repeat center;
     background-size: cover;
@@ -511,6 +564,7 @@ button.btn {
 
 .heading ul {
     padding-left: 0;
+    line-height: 2.5;
 }
 
 .heading ul li a {
@@ -522,7 +576,7 @@ button.btn {
     background-color: #7AB730;
     border-color: #7AB730;
     margin-top: 4px;
-    padding: 16px 170px 16px 160px;
+    padding: 16px 100px 16px 140px;
 }
 
 .btn-primary-1:hover,
@@ -534,10 +588,15 @@ button.btn {
     box-shadow: 0 0 0 0.2rem rgb(122 183 48 / 25%);
     text-decoration: none;
 }
+
 .btn-outline-primary {
     color: #7AB730;
-    border-color: #7AB730;}
-/* Team */
+    border-color: #7AB730;
+}
+
+/* contact : the end */
+
+/* 12. Team */
 .team-item {
     transition: .5s;
 }
@@ -560,17 +619,20 @@ button.btn {
     margin-top: 100px;
     opacity: 0;
     text-decoration: none;
-    border-radius: 1px ;
+    border-radius: 1px;
 }
+
 .btn-outline-primary {
     color: #7AB730;
     border-color: #7AB730;
 }
+
 .btn-outline-primary:hover {
     color: #fff;
     background-color: #7AB730;
     border-color: #7AB730;
 }
+
 .team-item:hover {
     box-shadow: 0 0 30px #CCCCCC;
 }
@@ -595,20 +657,24 @@ button.btn {
 .team-item:hover .team-img img {
     transform: scale(1.2);
 }
+
 /* Team : the end */
-/* testimonial */
-.testimonial-text{
+
+/* 13. testimonial */
+.testimonial-text {
     margin-top: -50px;
 }
-.testimonial-text p{
+
+.testimonial-text p {
     text-align: center !important;
 }
 
 .testimonial-carousel .owl-dots {
     margin-top: 5px;
     text-align: center;
-  }
- .testimonial-carousel .owl-dot {
+}
+
+.testimonial-carousel .owl-dot {
     position: relative;
     display: inline-block !important;
     margin: 0 5px !important;
@@ -617,20 +683,24 @@ button.btn {
     background: #DDDDDD !important;
     transition: .5s !important;
 }
- .testimonial-carousel .owl-dot.active {
+
+.testimonial-carousel .owl-dot.active {
     width: 40px;
     background: #7AB730 !important;
-  }
-  
- .testimonial-carousel .owl-item.center .testimonial-text {
+}
+
+.testimonial-carousel .owl-item.center .testimonial-text {
     box-shadow: 0 0 30px #CCCCCC;
-  }
+}
+
 /* testimonial: the end */
-/* Blog  */
-.blog{
+
+/* 14. Blog  */
+.blog {
     margin-bottom: 85px !important;
 }
-.blog-date{
+
+.blog-date {
     position: absolute;
     width: 60px;
     height: 45px;
@@ -642,6 +712,7 @@ button.btn {
     flex-direction: column;
     background: #7AB730;
 }
+
 .blog-date::after {
     position: absolute;
     content: "";
@@ -653,36 +724,46 @@ button.btn {
     border-color: transparent #5f8f25 #5f8f25 transparent;
     z-index: -1;
 }
-.blog-date h6{
+
+.blog-date h6 {
     font-weight: 700 !important;
     margin-bottom: -0.25rem !important;
 }
-.blog-admin{
+
+.blog-admin {
     margin-bottom: 12px;
 }
+
 /* Blog : the end */
-/* footer and copyright */
-.footer .icons a{
+
+/* 15. footer and copyright */
+.footer .icons a {
     border-radius: 1px;
-   margin-right: 5px;
+    margin-right: 5px;
 }
-.footer ul li a{
+
+.footer ul li a {
     margin-right: 10px;
 }
-.input-group-append button.btn-primary{
+
+.input-group-append button.btn-primary {
     margin-top: 0 !important;
     padding-bottom: 10px !important;
 }
-p.link{
+
+p.link {
     text-align: right !important;
 }
-.Usefull-link a{
+
+.Usefull-link a {
     margin-right: 0.25rem;
     margin-bottom: 0.5rem;
 }
-.Usefull-link a:hover{
- text-decoration: underline;
+
+.Usefull-link a:hover {
+    text-decoration: underline;
 }
+
 #scroll-Top .return-to-top {
     position: fixed;
     right: 30px;
@@ -701,103 +782,120 @@ p.link{
 }
 
 #scroll-Top .return-to-top:hover {
-    color: #fff; 
+    color: #fff;
     background-color: #669928;
     border-color: #5f8f25;
 }
+
 /* -----------Sub Page------------ */
 /* About */
- /* Banner */
-.Banner{
- position: relative;
- background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../image/carousel-2.jpg), no-repeat center center;
- background-size: cover;
- padding-top: 170px;
- padding-bottom: 150px;
- }
- .Banner-content h1{
+/* Banner */
+.Banner {
+    position: relative;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../image/carousel-2.jpg), no-repeat center center;
+    background-size: cover;
+    padding-top: 170px;
+    padding-bottom: 150px;
+}
+
+.Banner-content h1 {
     font-size: 50px;
     font-weight: bolder;
- }
- .Banner-content a:hover{
-  text-decoration: underline;
- }
+}
 
- /* Banner : the end */
- /* Blog */
- .blog-item{
+.Banner-content a:hover {
+    text-decoration: underline;
+}
+
+/* Banner : the end */
+/* Blog */
+.blog-item {
     transition: 0.5s;
- }
-.blog-item:hover{
+}
+
+.blog-item:hover {
     box-shadow: 0 0 30px #CCCCCC;
 }
-.blog-content{
+
+.blog-content {
     padding-left: 16px;
 }
+
 /* Pagination */
 .page-item.active .page-link {
     z-index: 3;
     color: #fff;
     background-color: #7AB730;
-    border-color:  #7AB730;
+    border-color: #7AB730;
 }
-.page-link{
+
+.page-link {
     color: #7AB730;
 }
-.page-link:hover,.page-link:focus{
+
+.page-link:hover,
+.page-link:focus {
     color: #527a20;
     text-decoration: none;
     outline: 0;
     box-shadow: 0 0 0 0.2rem rgb(122 183 48 / 25%);
 }
+
 /* Pagination : the end */
 /* form-search */
-.input-group-text{
+.input-group-text {
     height: 50px;
 }
+
 /* Recent post */
-.badge{
+.badge {
     border: 1px solid #7AB730;
     border-radius: 0;
     background-color: #7AB730;
 }
-a.text-dark:hover{
+
+a.text-dark:hover {
     text-decoration: underline;
 }
-a.text-dark .fa{
+
+a.text-dark .fa {
     font-weight: bold;
 }
- /* Blog : the end */
- /* Single-blog */
-.single-image{
+
+/* Blog : the end */
+/* Single-blog */
+.single-image {
     float: left;
     margin-right: 24px;
     margin-bottom: 8px;
 }
-.image-right{
+
+.image-right {
     float: right;
     margin-right: 24px;
     margin-bottom: 8px;
 }
+
 /* Media */
 .media {
     display: flex;
     align-items: flex-start;
 }
-.media img{
+
+.media img {
     margin-right: 16px;
 }
+
 .media-body h6 a {
     color: #7AB730;
 }
+
 .media-body h6 small {
     color: #212121 !important;
 }
+
 textarea.form-control {
     height: auto;
 }
 
-
-
-
- /* Single-blog : the end */
+/* Single-blog : the end */

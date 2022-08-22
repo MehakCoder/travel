@@ -123,11 +123,46 @@
     <!-- Booking Start -->
     <div class="Booking">
         <div class="container bg-white shadow">
-            <div class="row">
-                <div class="col-md-10 d-flex text-center" style="padding:30px;">
+            <div class="row align-items-center" style="min-height: 60px;">
+                <div class="col-md-10 d-flex " style="padding:30px;">
                     <div class="col-md-3">
                         <div class="form-group bg-light">
-                            <select class="custom-select" style=" width:220px; height: 47px;">
+                            <div class="mb-3 mb-md-0">
+                                <select class="custom-select px-4" style="height: 47px;">
+                                    <option selected>Destination</option>
+                                    <option value="1">Destination 1</option>
+                                    <option value="2">Destination 1</option>
+                                    <option value="3">Destination 1</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class='col-md-3'>
+                        <div class='input-group date' id='startDate'>
+                            <span class="input-group-addon input-group-text"><span class="startDate"></span>
+                            </span>
+                            <div class="date" id="date1" data-target-input="nearest">
+                                <input type="text" class="form-control p-4 datetimepicker-input"
+                                    placeholder="Depart Date" data-target="#date1" data-toggle="datetimepicker" />
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class='col-md-3'>
+                        <div class='input-group date' id='startEnd'>
+                            <span class="input-group-addon input-group-text"><span class="startEnd"></span>
+                            </span>
+                            <div class="date" id="date1" data-target-input="nearest">
+                                <input type="text" class="form-control p-4 datetimepicker-input"
+                                    placeholder="Return Date" data-target="#date1" data-toggle="datetimepicker" />
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-md-3">
+                        <div class="destend mb-md-0 ml-3">
+                            <select class="custom-select px-4" style="height: 47px;">
                                 <option selected>Destination</option>
                                 <option value="1">Destination 1</option>
                                 <option value="2">Destination 1</option>
@@ -135,42 +170,9 @@
                             </select>
                         </div>
                     </div>
-
-                    <div class='col-md-3'>
-                        <div class="form-group custom-select px-4" style=" width: 270px; height: 47px;">
-                            <div class='input-group date' id='startDate'>
-                                <span class="input-group-addon input-group-text"><span class="startDate"></span>
-                                </span>
-                                <input type='text' class="form-control p-4 datetimepicker-input" name="startDate"
-                                    placeholder="Depart Date">
-                            </div>
-                        </div>
-
-                    </div>
-
-                    <div class='col-md-3'>
-                        <div class="form-group custom-select px-4" style=" width: 220px; height: 47px;">
-                            <div class='input-group date' id='startEnd'>
-
-                                <span class="input-group-addon input-group-text"><span class="startEnd"></span>
-                                </span>
-                                <input type='text' class="form-control p-4 datetimepicker-input" name="startEnd"
-                                    placeholder="Return Date" />
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <select class="custom-select px-4" style="height: 47px;">
-                            <option selected>Duration</option>
-                            <option value="1">Duration 1</option>
-                            <option value="2">Duration 1</option>
-                            <option value="3">Duration 1</option>
-                        </select>
-                    </div>
                 </div>
                 <div class="col-md-2">
-                    <button class="btn btn-primary" type="submit"
-                        style="height: 47px; margin-top: 30px; margin-bottom: 25px;">Submit</button>
+                    <button class="btn btn-primary btn-block" type="submit" style="height: 47px; margin-top: -2px;">Submit</button>
                 </div>
             </div>
         </div>
