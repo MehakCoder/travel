@@ -216,8 +216,8 @@ General css (Reset code) : the end
 
 /* 2. Header */
 .head {
-    padding-top: 15px;
-    padding-bottom: 27px;
+    padding-top: 24px;
+    padding-bottom: 30px;
     background-color: #fff;
     line-height: 1.5;
 }
